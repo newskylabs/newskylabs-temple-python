@@ -1,5 +1,5 @@
 ## =========================================================
-## Copyright 2019 Dietrich Bollmann
+## {{ copyright }}
 ## 
 ## Licensed under the Apache License, Version 2.0 (the "License");
 ## you may not use this file except in compliance with the License.
@@ -34,19 +34,19 @@ __all__ = [
     '__date__',
 ]
 
-__package_name__ = 'newskylabs-temple'
-__version__      = '0.0.1.dev1'
-__status__       = 'Development'
-__description__  = 'NEWSKYLABS TEMPLatE generator'
-__author__       = 'Dietrich Bollmann'
+__package_name__ = '{{ project.name }}'
+__version__      = '{{ version }}'
+__status__       = '{{ status }}'
+__description__  = '{{ company }} {{project.language }} project {}'.format(__package_name__)
+__author__       = '{{ author.name }}'
 __authors__      = [__author__]
 __maintainer__   = __author__
-__email__        = 'dietrich@newskylabs.net'
+__email__        = '{{ author.email }}'
 __contact__      = __email__
-__copyright__    = 'Copyright 2019 {}'.format(__author__)
-__url__          = 'http://newskylabs.net/python/packages/newskylabs-temple'
-__license__      = 'Apache License 2.0, http://www.apache.org/licenses/LICENSE-2.0'
-__date__         = '2019/02/22'
+__copyright__    = 'Copyright {{ datetime.year }} {}'.format(__author__)
+__url__          = 'http://newskylabs.net/python/packages/{}'.format(__package_name__)
+__license__      = '{{ license }}'
+__date__         = '{{ date }}'
 
 ## =========================================================
 ## =========================================================
