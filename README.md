@@ -8,11 +8,9 @@ TODO
 ```
 mkdir some-directory
 cd some-directory
-
 ```
 
-
-# {{ company }} {{project.language }} project {{ project.name }}
+# {{ company }} {{ project.language }} project {{ project.name }}
 
 Use [Github-flavored Markdown](https://guides.github.com/features/mastering-markdown/)
 to format the content of this file.
