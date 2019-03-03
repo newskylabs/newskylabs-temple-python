@@ -1,5 +1,5 @@
 ## =========================================================
-## Copyright 2019 Dietrich Bollmann
+## {{ copyright }}
 ## 
 ## Licensed under the Apache License, Version 2.0 (the "License");
 ## you may not use this file except in compliance with the License.
@@ -16,7 +16,7 @@
 
 """setup.py:
 
-Setup file for the newskylabs.temple.python package and tools.
+Setup file for the {{ company }} {{ project.language }} project {{ project.name }}.
 
 """
 
