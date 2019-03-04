@@ -21,7 +21,7 @@ For more information concerning the used template syntax see the
 * copyright:     {{ copyright }}
 
 
-## Usage:
+## Usage
 
 1. Install [NewSkyLab](http://newskylabs.net/)'s template generator
 [temple](https://github.com/newskylabs/newskylabs-temple)
