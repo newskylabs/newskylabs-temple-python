@@ -7,6 +7,10 @@
 Use [Github-flavored Markdown](https://guides.github.com/features/mastering-markdown/)
 to format the content of this file.
 
+For more information concerning the used template syntax see the
+[homepage of *Jinja2*](http://jinja.pocoo.org/docs/).
+
+
 ## Project settings
 
 * project name:  {{ project.name }}
