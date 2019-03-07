@@ -16,7 +16,7 @@
 
 """setup.py:
 
-Setup file for the {{ company }} {{ project.language }} project {{ project.name }}.
+Setup file for the {{ company.name }} {{ project.language }} project {{ project.name }}.
 
 """
 
@@ -51,7 +51,7 @@ def find_packages(namespace):
 ## ---------------------------------------------------------
 
 namespace    = 'newskylabs'
-subnamespace = 'temple'
+subnamespace = '{{ project.name }}'
 
 # Load the package metadata 
 exec(read_file(namespace, subnamespace, '__about__.py'))

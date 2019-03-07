@@ -15,11 +15,12 @@ For more information concerning the used template syntax see the
 
 * project name:  {{ project.name }}
 * author:        {{ author.name }}
+* homepage:      {{ author.homepage }}
 * email:         {{ author.email }}
+* contact:       {{ author.contact }}
 * company:       {{ company.name }}
 * date:          {{ date }}
 * copyright:     {{ copyright }}
-
 
 ## Usage
 
@@ -97,16 +98,17 @@ $ tail -10 my-project/my-project.git/README.md
 
 * project name:  my-project
 * author:        Your Name
+* homepage:      http://your.home.page/
 * email:         your@email.address
+* contact:       http://your.home.page/contact
 * company:       YourCompany
 * date:          2019/03/04
 * copyright:     Copyright 2019 Your Name
 
 ```
 
-
 # Comments etc.
 
-If you have any comments, [please drop me a message](http://dietrich.newskylabs.net/email)!
+If you have any comments, [please drop me a message]({{ author.contact }})!
 
-*Copyright (c) 2015 [Dietrich Bollmann](http://dietrich.newskylabs.net)*
+*Copyright (c) {{ datetime.year }} [{{ author.name }}]({{ author.homepage }})*
