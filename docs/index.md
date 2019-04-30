@@ -25,5 +25,3 @@ TODO: Short description
 
 If you have any comments, [please drop me a message]({{ author.contact }})!
 
-*Copyright &copy; {{ datetime.year }} &nbsp; [{{ author.name }}]({{ author.homepage }}). &nbsp; All rights reserved.*
-

@@ -49,7 +49,7 @@ nav:
   - Home: index.md
     
 # Copyright
-copyright: Copyright &copy; {{ datetime.year }} [{{ author.name }}]({{ author.homepage }})
+copyright: '<em>Copyright &copy; {{ datetime.year }} &nbsp; <a href="{{ author.homepage }}">{{ author.name }}</a>. &nbsp; All rights reserved.</em>'
 
 ## =========================================================
 ## =========================================================
